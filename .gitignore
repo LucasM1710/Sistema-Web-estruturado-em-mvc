@@ -1,0 +1,39 @@
+# https://github.com/github/gitignore/blob/master/Global/SublimeText.gitignore
+# Put this .gitignore in the Sublime Text 3 User directory
+# Mac Location: "~/Library/Application Support/Sublime Text 3/Packages/User"
+
+# ignore subdirs except whitelisted ones
+*/
+!Snippets/
+!Snippets/*
+
+# Cache files for Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# ignore OS files
+.DS_Store
+
+# sensitive files
+sftp-config.json
+GitHub.sublime-settings
+SQLToolsConnections.sublime-settings
+
+# make sure .gitignore always makes it
+!.gitignore
