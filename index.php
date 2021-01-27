@@ -12,6 +12,9 @@ C = Controler
 	----------------------------------------------------------	*/
 
 	$autoload = function($class){
+		if($class == 'Email'){
+		include('phpmailer/PHPMailerAutoload.php');
+		}
 		include($class.'.php');
 	};
 
